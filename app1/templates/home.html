@@ -1,0 +1,7 @@
+{% include 'base.html'%}
+{% if messages %}
+    {% for msg in messages %}
+        <div class="alert alert-success">{{msg}}</div>
+    {% endfor %}
+{% endif %}
+{% include 'footer.html'%}
